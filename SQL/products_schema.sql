@@ -1,0 +1,1 @@
+CREATE TABLE `zambiajobboards_api`.`products` (`sale_id` INT NOT NULL , `customer_name` VARCHAR(60) NOT NULL , `customer_mail` VARCHAR(60) NOT NULL , `product_id` INT NOT NULL , `product_name` TEXT NOT NULL , `product_price` DECIMAL NOT NULL , `sale_date` DATETIME NOT NULL , `version` VARCHAR(60) NOT NULL ) ENGINE = InnoDB;
