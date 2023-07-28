@@ -17,10 +17,10 @@ try {
   echo "Connection Failed: " . $e->getMessage();
 }
 
-function getProducts()
+function getSales()
 {
   global $conn;
-  $query = "SELECT * FROM products";
+  $query = "SELECT * FROM sales";
   try {
     $statement = $conn->prepare($query);
     $statement->execute();
@@ -31,7 +31,7 @@ function getProducts()
   return $data;
 }
 
-function seedProducts ()
+function seedSales ()
 {
   global $conn;
   $productsFilePath = __DIR__ . '/mock/DEV_Sales_full.json';

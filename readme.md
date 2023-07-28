@@ -1,3 +1,4 @@
+# ABOUT
 Szenario:
 Imagine your friend - the owner of a small book shop - asks you for a simple representation of his latest sales.
 He provides you a simple plain json export file.
@@ -27,7 +28,6 @@ How to start the project
 - Run 
  ``docker compose up``
 
-- Run ``docker exec -it php bash``
 
 ### Inside the container
 - Run  ``cd /scripts && php migration.php``
