@@ -28,6 +28,10 @@ How to start the project
  ``docker compose up``
 
 - Run ``docker exec -it php bash``
-- Run  ``php migration.php``
-- Run ``php seeder.php``
-- Open ``http://localhost:8080`` in your browser
+
+### Inside the container
+- Run  ``cd /scripts && php migration.php``
+- Run ``cd /scripts && php seeder.php``
+
+### Run app in browser
+- Open ``http://localhost:80`` in your browser
