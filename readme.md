@@ -33,5 +33,8 @@ How to start the project
 - Run  ``cd /scripts && php migration.php``
 - Run ``cd /scripts && php seeder.php``
 
+### testing
+- Run  ``cd /scripts && php test.php``
+
 ### Run app in browser
 - Open ``http://localhost:80`` in your browser
